@@ -72,15 +72,15 @@ A simple and efficient API for managing tasks, built with Django and Django REST
 
 2. Install the dependencies:
    ```bash
-  pip install -r requirements.txt 
+   pip install -r requirements.txt 
 
 3. Apply migrations:
    ```bash
-  python manage.py migrate
+   python manage.py migrate
 
 4. Run the server:
    ```bash
-  python manage.py runserver
+   python manage.py runserver
 
 ## Usage
 Authenticate users using the /api/token/ endpoint to obtain a JWT token.
